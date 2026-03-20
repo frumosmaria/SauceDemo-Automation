@@ -11,9 +11,9 @@ Feature: all scenarios related to saucedemo.com
     Then The cart page is loaded
     When I click on checkout button
     Then The checkout page is loaded
-    When I fill my first name "bogdan"
-    When I fill my last name "brinzei"
-    When I fill my zipcode "710049"
+    When I fill my first name "daniel"
+    When I fill my last name "ionas"
+    When I fill my zipcode "770077"
     When I click on continue button
     When I click on finish button
     Then The order message is "Thank you for your order!"
